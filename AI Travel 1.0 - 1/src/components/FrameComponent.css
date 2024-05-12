@@ -1,0 +1,132 @@
+.div2 {
+  position: relative;
+  background: linear-gradient(#000, #000), linear-gradient(#959494, #959494),
+    #959494;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 35px;
+  z-index: 1;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-35xl) 0 var(--padding-35xl-1);
+}
+.cultural-walking-tour-child {
+  height: 164px;
+  width: 1089px;
+  position: absolute;
+  margin: 0 !important;
+  top: -77.6px;
+  right: -366.9px;
+  border-radius: var(--br-11xl);
+}
+.chen-xunian-cultural1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.cultural-walking-tour,
+.cultural-walking-tour-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cultural-walking-tour {
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  position: relative;
+}
+.cultural-walking-tour-wrapper {
+  width: 839.1px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.experience-the-thrill1 {
+  position: relative;
+  z-index: 1;
+}
+.hike {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-43xl) 0 var(--padding-43xl-1);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-100);
+}
+.title28 {
+  flex: 1;
+  position: relative;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.frame-parent10,
+.second-plan,
+.title27 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.title27 {
+  flex-direction: row;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-roboto);
+}
+.frame-parent10,
+.second-plan {
+  flex-direction: column;
+  gap: var(--gap-smi-6);
+  font-size: var(--font-size-13xl);
+}
+.frame-parent10 {
+  padding: 0 0 var(--padding-smi-6);
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .chen-xunian-cultural1 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .hike {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .frame-parent10 {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .chen-xunian-cultural1 {
+    font-size: var(--font-size-lgi);
+  }
+  .title28 {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+}

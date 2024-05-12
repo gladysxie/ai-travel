@@ -1,0 +1,96 @@
+.title38 {
+  margin: 0;
+  align-self: stretch;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.title-wrapper5 {
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-roboto);
+}
+.title39 {
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+.star-button {
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl-5) 0 0;
+  box-sizing: border-box;
+}
+.frame-child9 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.top-bar-inner2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.title40 {
+  align-self: stretch;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.star-button1 {
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl-5) 0 0;
+  box-sizing: border-box;
+}
+.image-1-icon1 {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+}
+.top-bar3 {
+  margin-top: -116px;
+  align-self: stretch;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini-5) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  top: -116;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

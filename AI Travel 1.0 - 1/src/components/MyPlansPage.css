@@ -1,0 +1,234 @@
+.section-inner {
+  height: 0.5px;
+  width: 100%;
+  right: 0;
+  bottom: -0.5px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+.image-4-icon,
+.my-plans,
+.section-inner {
+  position: absolute;
+  margin: 0 !important;
+}
+.my-plans {
+  top: 27px;
+  left: 667.9px;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 116px;
+}
+.image-4-icon {
+  height: 351px;
+  width: 315px;
+  top: 108px;
+  left: 222px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-10-icon,
+.image-5-icon,
+.image-6-icon,
+.image-8-icon,
+.image-9-icon {
+  height: 351px;
+  width: 304px;
+  position: absolute;
+  margin: 0 !important;
+  top: 108px;
+  left: 566px;
+  object-fit: cover;
+}
+.image-5-icon,
+.image-6-icon,
+.image-8-icon,
+.image-9-icon {
+  width: 318px;
+  left: 899px;
+}
+.image-6-icon,
+.image-8-icon,
+.image-9-icon {
+  height: 356px;
+  width: 315px;
+  top: 558px;
+  left: 222px;
+}
+.image-6-icon,
+.image-9-icon {
+  height: 341px;
+  width: 305px;
+  left: 565px;
+}
+.image-6-icon {
+  height: 332px;
+  width: 291px;
+  left: 918px;
+}
+.section2,
+.title19,
+.title20 {
+  position: relative;
+  flex-shrink: 0;
+}
+.section2 {
+  align-self: stretch;
+  height: 985px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.title19,
+.title20 {
+  display: inline-block;
+}
+.title19 {
+  margin: 0;
+  height: 45px;
+  width: 620px;
+  font-size: var(--font-size-9xl);
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  white-space: nowrap;
+  max-width: 100%;
+}
+.title20 {
+  width: 235px;
+  cursor: pointer;
+}
+.top-bar-item {
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+.title21 {
+  width: 235px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.image-1-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+}
+.title22,
+.top-bar1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.top-bar1 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: -9px;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-mini-5) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.title22 {
+  height: 100px;
+  position: relative;
+  line-height: 28px;
+}
+.title23 {
+  min-width: 124px;
+}
+.title23,
+.title24 {
+  height: 100px;
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1,
+.my-plans-page,
+.section3 {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+}
+.container1 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-41xl);
+}
+.my-plans-page,
+.section3 {
+  box-sizing: border-box;
+}
+.section3 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.my-plans-page {
+  width: 1440px;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  position: relative;
+  min-height: 1244px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .container1 {
+    flex-wrap: wrap;
+  }
+  .container1,
+  .section3 {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .my-plans {
+    font-size: var(--font-size-3xl);
+    line-height: 29px;
+  }
+  .title22,
+  .title23,
+  .title24 {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

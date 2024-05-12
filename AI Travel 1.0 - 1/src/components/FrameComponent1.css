@@ -1,0 +1,99 @@
+.title-bar {
+  position: relative;
+  background: linear-gradient(#000, #000), linear-gradient(#959494, #959494),
+    #959494;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 35px;
+  z-index: 1;
+}
+.frame-child8 {
+  height: 164px;
+  width: 1089px;
+  position: absolute;
+  margin: 0 !important;
+  right: -512.9px;
+  bottom: -65.4px;
+  border-radius: var(--br-11xl);
+}
+.local-breakfast-at {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frame-wrapper9,
+.vector-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vector-container {
+  position: relative;
+}
+.frame-wrapper9 {
+  padding: 0 var(--padding-46xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+}
+.start-your-day {
+  position: relative;
+  line-height: 19.2px;
+  z-index: 1;
+}
+.first-plan,
+.frame-wrapper8,
+.title-bar-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.first-plan {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-6xs);
+  color: var(--color-dimgray-100);
+}
+.frame-wrapper8,
+.title-bar-parent {
+  max-width: 100%;
+}
+.title-bar-parent {
+  flex-direction: column;
+  gap: var(--gap-6xl);
+}
+.frame-wrapper8 {
+  flex-direction: row;
+  padding: 0 var(--padding-35xl) 0 var(--padding-35xl-1);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .local-breakfast-at {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-wrapper8 {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-wrapper9 {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .local-breakfast-at {
+    font-size: var(--font-size-lgi);
+  }
+}

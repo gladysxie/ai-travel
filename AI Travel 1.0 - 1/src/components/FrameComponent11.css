@@ -1,0 +1,113 @@
+.blank-line2,
+.unlock-new-adventures {
+  margin: 0;
+}
+.title32 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.description1 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.description-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-40xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+}
+.get-started {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  width: 100%;
+  height: 100%;
+}
+.get-started1 {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  left: 0.5px;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 293px;
+  height: 24px;
+  z-index: 1;
+}
+.primary-button {
+  height: 70px;
+  width: 303px;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.primary-button-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.frame-section,
+.title-parent5 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.title-parent5 {
+  width: 776px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-section {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-lgi);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1050px) {
+  .title32 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .description-container {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title32 {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+}

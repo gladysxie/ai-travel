@@ -1,0 +1,115 @@
+.frame-child10 {
+  height: 45px;
+  width: 170px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-tan-100);
+  display: none;
+}
+.tailor-your-plan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  font-family: var(--font-roboto);
+  color: var(--color-black);
+  text-align: left;
+  cursor: pointer;
+  z-index: 1;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-lgi) var(--padding-xs)
+    var(--padding-sm);
+  background-color: var(--color-tan-100);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.rectangle-parent:hover {
+  background-color: var(--color-tan-200);
+}
+.frame-wrapper12,
+.title42 {
+  display: flex;
+  justify-content: center;
+}
+.frame-wrapper12 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.title42 {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  align-items: center;
+  max-width: 100%;
+}
+.title43 {
+  min-width: 124px;
+}
+.title43,
+.title44 {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-parent7 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.frame-parent11,
+.frame-wrapper11,
+.title-parent7 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent11 {
+  width: 742px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.frame-wrapper11 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 750px) {
+  .title-parent7 {
+    flex-wrap: wrap;
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .title42,
+  .title43,
+  .title44 {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}
